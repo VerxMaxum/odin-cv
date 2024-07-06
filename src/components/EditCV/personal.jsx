@@ -1,9 +1,8 @@
 //import Button from '../reusables/button'
 import UserInput from '../reusables/input'
-export default function Editor() {
+export default function PersonalInfo() {
     return (
         <>
-            <h1>Personal Information</h1>
             <section className="edit-personal edit-section">
                 <UserInput label="First Name" type="text" id="first-name" placeholder="First Name"/>
                 <UserInput label="Last Name" type="text" id="last-name" placeholder="Last Name"/>
