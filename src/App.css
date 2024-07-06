@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+
 label, input {
   display: block;
+}
+
+#root {
+  display: flex;
+}
+
+#root > section {
+  width: 50vw;
+}
+
+#root > section > h1,
+#root > section label {
+  margin-top: 1rem;
+}
+
+#root > section:first-child {
+  background-color: rgb(3, 3, 83);
+  color: rgb(218, 218, 255);
+}
+#root > section > * {
+  margin-left: 2rem;
+}
+
+#root > section:first-child > h1 {
+  font-size: 2.5em;
+}
+
+label {
+  font-size: 2em;
+}
+
+input {
+  width: 500px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+button {
+  font-size: 1.5em;
+  background: linear-gradient(45deg, rgb(88, 88, 175) 0%, rgb(13, 86, 196) 90%);
+  color: rgb(218, 218, 255);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  transition: background-color 2s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, rgb(13, 86, 196) 0%, rgb(88, 88, 175) 90%);
+}
+
+.section-preview {
+  display: flex;
+}
+
+.section-preview > div {
+  width: 50%;
+}
+
+#root > section:last-child > h1 {
+  font-size: 3em;
+}
+
+#root > section:last-child p {
+  font-size: 1.5em;
 }
