@@ -10,7 +10,7 @@ export default function PersonalInfo({onChange}) {
                  onChange={onChange}/>
                 <UserInput label="Address" type="text" id="address" placeholder="Your Address" onChange={onChange}/>
                 <UserInput label="Email" type="email" id="email" placeholder="Your Email Address" onChange={onChange}/>
-                <UserInput label="Contact Numbe" type="text" id="contact-number" placeholder="Your Contact Number" onChange={onChange}/>
+                <UserInput label="Contact Number" type="text" id="contact-number" placeholder="Your Contact Number" onChange={onChange}/>
             </section>
         </>
     );

@@ -1,6 +1,6 @@
 export default function Timeline({start, end, place, programRole, city}) {
     return (
-        <>
+        <div className="timeline-container">
             <div className="date-time">
                 <p>{start} - {end}</p>
             </div>
@@ -9,6 +9,6 @@ export default function Timeline({start, end, place, programRole, city}) {
                 <p>{programRole}</p>
                 <p>{city}</p>
             </div>
-        </>
+        </div>
     );
 }

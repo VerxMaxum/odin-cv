@@ -29,7 +29,7 @@ label, input {
   color: rgb(218, 218, 255);
 }
 #root > section > * {
-  margin-left: 2rem;
+  margin: 0 2rem;
 }
 
 #root > section:first-child > h1 {
@@ -72,8 +72,19 @@ button:hover {
 
 #root > section:last-child > h1 {
   font-size: 3em;
+  border-bottom: 2px black solid;
 }
 
 #root > section:last-child p {
   font-size: 1.5em;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.timeline-container > div:last-child {
+  text-align: right;
 }
